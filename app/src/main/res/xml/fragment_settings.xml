@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <EditTextPreference
+        android:key="@string/pref_magKey"
+        android:title="@string/pref_magTitle"
+        android:summary="@string/pref_magSummary"
+        android:defaultValue="@string/pref_magDefaultValue"
+        />
+    <EditTextPreference
+        android:key="@string/pref_limitKey"
+        android:title="@string/pref_limitTitle"
+        android:summary="@string/pref_limitSummary"
+        android:defaultValue="@string/pref_limitDefaultValue"
+        />
+    <ListPreference
+        android:key="@string/pref_oderbyKey"
+        android:title="@string/pref_orderbyTitle"
+        android:summary="@string/pref_orderbySummary"
+        android:entries="@array/pref_orderbyEntries"
+        android:entryValues="@array/pref_orderbyEntryValues"
+        android:defaultValue="@string/pref_orderbyDefault"
+        />
+
+</PreferenceScreen>
+

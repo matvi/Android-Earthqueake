@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ListVersion</string>
+    <string name="action_settings">Earhquakes Preferences</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="near_the">Near the</string>
+    <string name="no_earthqueke">No earthqueke found</string>
+    <string name="no_networkAvailable">No NetworkAvailable found</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="pref_magKey" translatable="false">magKey</string>
+    <string name="pref_magTitle">Mag Magnitude</string>
+    <string name="pref_magSummary">Choose minimum magnitude to search 1 from 10</string>
+    <string name="pref_magDefaultValue">6</string>
+    <string name="pref_limitKey" translatable="false">limitKey</string>
+    <string name="pref_limitTitle">Limit Earthqueakes</string>
+    <string name="pref_limitSummary">Choose the limit of earthquakes to show</string>
+    <string name="pref_limitDefaultValue">10</string>
+
+    <string name="pref_oderbyKey" translatable="false">orderbyKey</string>
+    <string name="pref_orderbyTitle">Order by</string>
+    <string name="pref_orderbySummary">Choose the order</string>
+    <string name="pref_orderbyDefault">time</string>
+    <string-array name="pref_orderbyEntries">
+        <item>magnitude</item>
+        <item>time</item>
+    </string-array>
+    <string-array name="pref_orderbyEntryValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+</resources>
